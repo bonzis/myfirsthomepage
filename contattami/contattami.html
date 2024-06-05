@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contattami.css" />
+    <title>Contattami - Gabriele Riccobono 4B Informatica</title>
+  </head>
+  <body>
+
+    <nav class="nav-bar">
+      <ul class="nav-bar-ul">
+        <li><a class="nav-bar-li-a"href="../esercizi/esercizi.html"><b>Progetti</b></a></li>
+        <li><a class="nav-bar-li-a" href="../negozio/negozio.html"><b>Negozio</b></a></li>
+        <li class="nav-bar-li-logo">
+          <a class="nav-bar-li-a" href="../index.html">
+            <img 
+              class="nav-bar-img"
+              src="../image/logonero.png"  
+              onmouseover="this.src='../image/logobianco.png';"
+              onmouseout="this.src='../image/logonero.png';" 
+              alt="" 
+              height="60px" 
+              width="60px">
+          </a>
+        </li>
+          <li><a class="nav-bar-li-a" href="contattami.html"><b>Contattami</b></a></li>
+          <li><a class="nav-bar-li-a" href="../chisono/chisono.html"><b>Chi sono</b></a></li>
+      </ul>
+    </nav>
+  <div class="div-cards">
+    <div class="card">
+      
+        <div class="card-titolo">
+           <h1 class="card-titolo-h1">CONTATTAMI</h1>
+        </div>
+        <div class="card-paragrafo">
+          <br><p class="card-paragrafo-p"> • Inserisci le tue informazioni per poter inviare l'email </p>
+        </div>
+        <br><br><hr>
+        <div class="card-box">
+          <form name="form-boxs-input" method="post" action="#">
+            <br><label class="nomeCognomeTitolo" for="nomeCognomeCasella"><b>NOME E COGNOME</b></label><br>
+            <input type="text" id="nomeCognomeCasella" name="nomeCognomeCasella" minlength="2" maxlength="30">
+            <br><label class="emailTitolo" for="emailCasella"><b>EMAIL</b></label><br>
+            <input type="text" id="emailCasella" name="emailCasella" maxlength="30">
+            <br><label class="contenutoTitolo" for="contenutoCasella"><b>CONTENUTO</b></label><br>
+            <input type="contenuto" id="contenutoCasella" name="contenutoCasella" maxlength="50">
+            <br><input type="submit" id="submitButton" name="submitButton">
+         </form>
+        </div>
+    
+    </div>
+  </div>
+  </body>
+</html>
