@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer vs Player Tesoro - Gabriele Riccobono 4b inf</title>
+    <script src="scriptesetesorocomputer.js"></script>
+    <link rel="stylesheet" href="esetesorocomputer.css">
+  </head>
+
+  <body>
+
+    <nav class="nav-bar">
+      <ul class="nav-bar-ul">
+        <li><a class="nav-bar-li-a"href="../esercizi.html"><b>Progetti</b></a></li>
+        <li><a class="nav-bar-li-a" href="../../negozio/negozio.html"><b>Negozio</b></a></li>
+        <li class="nav-bar-li-logo">
+          <a class="nav-bar-li-a" href="../../index.html">
+            <img 
+              class="nav-bar-img"
+              src="../../image/logonero.png"  
+              onmouseover="this.src='../../image/logobianco.png';"
+              onmouseout="this.src='../../image/logonero.png';" 
+              alt="" 
+              height="60px" 
+              width="60px">
+          </a>
+        </li>
+          <li><a class="nav-bar-li-a" href="../../contattami/contattami.html"><b>Contattami</b></a></li>
+          <li><a class="nav-bar-li-a" href="../../chisono/chisono.html"><b>Chi sono</b></a></li>
+      </ul>
+    </nav>
+
+    <!-- TABELLA 1 -->
+  <div class="div-tabelle">
+    <table>
+      <tr>
+        <th>
+          <img
+            id="player0"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 0)"
+          />
+        </th>
+        <th>
+          <img
+            id="player1"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 1)"
+          />
+        </th>
+        <th>
+          <img
+            id="player2"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 2)"
+          />
+        </th>
+        <th>
+          <img
+            id="player3"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 3)"
+          />
+        </th>
+        <th>
+          <img
+            id="player4"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 4)"
+          />
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <img
+            id="player5"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 5)"
+          />
+        </th>
+        <th>
+          <img
+            id="player6"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 6)"
+          />
+        </th>
+        <th>
+          <img
+            id="player7"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 7)"
+          />
+        </th>
+        <th>
+          <img
+            id="player8"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 8)"
+          />
+        </th>
+        <th>
+          <img
+            id="player9"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 9)"
+          />
+        </th>
+    </tr>
+    <tr>
+        <th>
+          <img
+            id="player10"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 10)"
+          />
+        </th>
+        <th>
+          <img
+            id="player11"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 11)"
+          />
+        </th>
+        <th>
+          <img
+            id="player12"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 12)"
+          />
+        </th>
+        <th>
+          <img
+            id="player13"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 13)"
+          />
+        </th>
+        <th>
+          <img
+            id="player14"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 14)"
+          />
+        </th>
+    </tr>
+    <tr>
+        <th>
+          <img
+            id="player15"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 15)"
+          />
+        </th>
+        <th>
+          <img
+            id="player16"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 16)"
+          />
+        </th>
+        <th>
+          <img
+            id="player17"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 17)"
+          />
+        </th>
+        <th>
+          <img
+            id="player18"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 18)"
+          />
+        </th>
+        <th>
+          <img
+            id="player19"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 19)"
+          />
+        </th>
+    </tr>
+    <tr>
+        <th>
+          <img
+            id="player20"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 20)"
+          />
+        </th>
+        <th>
+          <img
+            id="player21"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 21)"
+          />
+        </th>
+        <th>
+          <img
+            id="player22"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 22)"
+          />
+        </th>
+        <th>
+          <img
+            id="player23"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 23)"
+          />
+        </th>
+        <th>
+          <img
+            id="player24"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('player', 24)"
+          />
+        </th>
+    </tr>
+    </table>
+
+    <!-- BOTTONE -->
+
+    <button class="bottone-reset" onclick="reset()">RESET</button>
+
+    <!-- TABELLA 2 -->
+
+    <table>
+      <tr>
+        <th>
+          <img
+            id="computer0"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 0)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer1"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 1)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer2"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 2)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer3"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 3)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer4"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 4)"
+          />
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <img
+            id="computer5"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 5)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer6"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 6)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer7"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 7)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer8"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 8)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer9"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 9)"
+          />
+        </th>
+    </tr>
+    <tr>
+        <th>
+          <img
+            id="computer10"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 10)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer11"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 11)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer12"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 12)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer13"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 13)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer14"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 14)"
+          />
+        </th>
+    </tr>
+    <tr>
+        <th>
+          <img
+            id="computer15"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 15)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer16"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 16)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer17"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 17)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer18"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 18)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer19"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 19)"
+          />
+        </th>
+    </tr>
+    <tr>
+        <th>
+          <img
+            id="computer20"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 20)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer21"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 21)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer22"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 22)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer23"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 23)"
+          />
+        </th>
+        <th>
+          <img
+            id="computer24"
+            src="verde.jpg"
+            alt=""
+            height="100px"
+            width="100px"
+            onclick="controllaTesoro('computer', 24)"
+          />
+        </th>
+    </tr>
+    </table>
+  </div>
+  </body>
+</html>
